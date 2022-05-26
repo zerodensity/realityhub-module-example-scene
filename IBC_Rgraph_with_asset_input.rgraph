@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZDNodeGraph name="LocalEngine0">
+	<ZDNodes>
+		<ZDNode name="EngineControl" class="EngineControl" nodeX="2336.0" nodeY="-1200.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="TargetFPS" index="0" showAsInputPin="False" showAsOutputPin="False" value="30.00 fps" />
+				<ZDProperty_Integer name="GameFPS" index="0" showAsInputPin="False" showAsOutputPin="False" value="30" />
+				<ZDProperty_String name="TimeCodeInfo" index="0" showAsInputPin="False" showAsOutputPin="False" value="No Timecode" />
+				<ZDProperty_Boolean name="HasSignal" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="UseGPUDirect" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Integer name="CacheAhead" index="0" showAsInputPin="False" showAsOutputPin="False" value="2" />
+				<ZDProperty_String name="RealityVersion" index="0" showAsInputPin="False" showAsOutputPin="False" value="2.9.5-build-294" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_Boolean name="RenderLighting" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="LightingDOF" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="LightingMotionBlur" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="SSRTemporal" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="RenderSSR" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="SSRDOF" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="SSRMotionBlur" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="Bloom" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="RenderShadow" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="ShadowDOF" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="ShadowMotionBlur" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Float name="GCTimeOut" index="0" showAsInputPin="False" showAsOutputPin="False" value="61.099998" />
+				<ZDProperty_Float name="ForwardAxis" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+				<ZDProperty_Float name="RightAxis" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+				<ZDProperty_Float name="UpAxis" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+				<ZDProperty_Float name="LookRightAxis" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+				<ZDProperty_Float name="LookUpAxis" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+				<ZDProperty_Boolean name="Button0" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="Button1" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="Button2" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="Button3" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="Button4" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="Button5" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="FlushRendering" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="OneFrameThreadLag" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_Boolean name="EnableTrace" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="GlobalClippingPlane" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="ForwardShading" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Integer name="StreamingPoolSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="0" />
+				<ZDProperty_Float name="ReflectionsMaxRayDistance" index="0" showAsInputPin="False" showAsOutputPin="False" value="-1.0" />
+				<ZDProperty_Float name="TonemapperGamma" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="ColorGamut" index="0" showAsInputPin="False" showAsOutputPin="False" value="Rec709 / sRGB, D65 (default)" />
+				<ZDProperty_String name="HDRDeviceFormat" index="0" showAsInputPin="False" showAsOutputPin="False" value="sRGB (LDR)" />
+				<ZDProperty_String name="EditorLicenseExpiryDate" index="0" showAsInputPin="False" showAsOutputPin="False" value="2000.01.01-00.01.03" />
+				<ZDProperty_String name="EngineLicenseExpiryDate" index="0" showAsInputPin="False" showAsOutputPin="False" value="2000.01.01-00.01.03" />
+				<ZDProperty_String name="KeyerLicenseExpiryDate" index="0" showAsInputPin="False" showAsOutputPin="False" value="2000.01.01-00.01.03" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="ForceGarbageCollection" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="Sync" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_Integer64 name="ControllerSyncTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="UpdateLicenseInfo" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="Refresh" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="Mixer Default" class="Mixer" nodeX="2368.0" nodeY="-848.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="ProgramChannel" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel1" />
+				<ZDProperty_String name="PreviewChannel" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel2" />
+				<ZDProperty_Boolean name="IsInTransition" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Float name="Amount" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+				<ZDProperty_Size name="MultiviewerRenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="1920, 1080" />
+				<ZDProperty_String name="Channel1Name" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel1" />
+				<ZDProperty_String name="Channel2Name" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel2" />
+				<ZDProperty_String name="Channel3Name" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel3" />
+				<ZDProperty_String name="Channel4Name" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel4" />
+				<ZDProperty_String name="Channel5Name" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel5" />
+				<ZDProperty_String name="Channel6Name" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel6" />
+				<ZDProperty_String name="Channel7Name" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel7" />
+				<ZDProperty_String name="Channel8Name" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel8" />
+				<ZDProperty_String name="Channel9Name" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel9" />
+				<ZDProperty_String name="Channel10Name" index="0" showAsInputPin="False" showAsOutputPin="False" value="Channel10" />
+				<ZDProperty_Boolean name="Premultiply" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Float name="OverlayOpacity" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="UpdateCameras" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="DoTransition" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_Float name="Duration" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+						<ZDProperty_String name="Type" index="0" showAsInputPin="False" showAsOutputPin="False" value="Dissolve" />
+						<ZDProperty_Float name="WipeWidth" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.4" />
+						<ZDProperty_String name="Target" index="0" showAsInputPin="False" showAsOutputPin="False" value="Program" />
+						<ZDProperty_String name="Interpolation" index="0" showAsInputPin="False" showAsOutputPin="False" value="EaseInOut" />
+						<ZDProperty_Float name="EaseExponent" index="0" showAsInputPin="False" showAsOutputPin="False" value="2.0" />
+						<ZDProperty_Integer name="StepCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="5" />
+					</ZDProperties>
+				</ZDFunction>
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="CLOCK_BUG_0" class="CLOCK_BUG" nodeX="336.0" nodeY="240.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="CLOCK_BUG" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_Float name="SetPosition_X" index="0" showAsInputPin="False" showAsOutputPin="False" value="1472.100098" />
+				<ZDProperty_Float name="SetPosition_Y" index="0" showAsInputPin="False" showAsOutputPin="False" value="-805.5" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {}&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;  {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    },&#xA;{&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;#ref&quot;: &quot;REVERSE&quot;&#xA;    }&#xA;  ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="TXNBUG_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="TXNBUG_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="TXNBUG_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="REVERSE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="Ticker_0" class="Ticker" nodeX="336.0" nodeY="144.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="Ticker" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_Float name="widthOfScreen" index="0" showAsInputPin="False" showAsOutputPin="False" value="1920.0" />
+				<ZDProperty_String name="boxValue" index="0" showAsInputPin="False" showAsOutputPin="False" value="QUICK BROWN FOX JUMPS OVER THE LAZY DOG" />
+				<ZDProperty_Color name="colorAndOp" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0, 1.0, 1.0, 1.0" />
+				<ZDProperty_Float name="speed" index="0" showAsInputPin="False" showAsOutputPin="False" value="200.0" />
+				<ZDProperty_Float name="Position" index="0" showAsInputPin="False" showAsOutputPin="False" value="1945.099976" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&quot;ticker&quot;:&quot;Lorem ipsum. Third quick brown fox jumps over the lazy dog. Lorem ipsum. Third quick brown fox jumps over the lazy dog. Lorem ipsum. Third quick brown fox jumps over the lazy dog. Lorem ipsum. Third quick brown fox jumps over the lazy dog. Lorem ipsum. Third quick brown fox jumps over the lazy dog. Lorem ipsum. Third quick brown fox jumps over the lazy dog. Lorem ipsum. Third quick brown fox jumps over the lazy dog. Lorem ipsum. Third quick brown fox jumps over the lazy dog. Lorem ipsum. Third quick brown fox jumps over the lazy dog. Lorem ipsum. Third quick brown fox jumps over the lazy dog. &quot;,&quot;pulseText&quot;:&quot;ZERO DENSITY @ IBC2019&quot;}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;ticker&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;pulseText&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    }&#xA;  }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Ticker Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/ticker&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Pulse Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/pulseText&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;#ref&quot;: &quot;REVERSE&quot;&#xA;    }&#xA;  ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="TRANSITION_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="TRANSITION_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="TRANSITION_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="REVERSE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="WeatherTransition_0" class="WeatherTransition" nodeX="336.0" nodeY="48.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="WeatherTransition" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {}&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;  {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    }&#xA;   ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="WEATHER_TRANS_ANIM_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="WEATHER_TRANS_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="WEATHER_TRANS_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="Transition_0" class="Transition" nodeX="336.0" nodeY="-144.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="Transition" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {}&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;  {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    }&#xA;   ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="Transition_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="Transition_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="Transition_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="Headlines_0" class="Headlines" nodeX="336.0" nodeY="-336.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="Headlines" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&quot;headText1&quot;:&quot;HEAD TEXT 1&quot;,&quot;headText2&quot;:&quot;HEAD TEXT 2&quot;,&quot;headText3&quot;:&quot;HEAD TEXT 3&quot;}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;headText1&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;headText2&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;headText3&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    }&#xA;  }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Head Text 1&quot;,&#xA;      &quot;#ref&quot;: &quot;#/headText1&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Head Text 2&quot;,&#xA;      &quot;#ref&quot;: &quot;#/headText2&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Head Text 3&quot;,&#xA;      &quot;#ref&quot;: &quot;#/headText3&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;#ref&quot;: &quot;REVERSE&quot;&#xA;    }&#xA;  ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="HEADLINES_ANIM_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="HEADLINES_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="HEADLINES_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="REVERSE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="NameBand_0" class="NameBand" nodeX="336.0" nodeY="-432.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="NameBand" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&quot;text&quot;:&quot;HEADER TEXT&quot;,&quot;subText&quot;:&quot;SUB TEXT&quot;}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;text&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;subText&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    } &#xA; }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Head Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/text&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Sub Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/subText&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;#ref&quot;: &quot;REVERSE&quot;&#xA;    } &#xA; ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="NB_UHD_ANIM_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="NB_UHD_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="NB_UHD_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="REVERSE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="LowerThird_0" class="LowerThird" nodeX="336.0" nodeY="-528.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="LowerThird" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&quot;topText&quot;:&quot;HEADER TEXT&quot;,&quot;bugText&quot;:&quot;SUB TEXT&quot;,&quot;headline1&quot;:&quot;HEADLINE INFO 1&quot;,&quot;headline2&quot;:&quot;HEADLINE INFO 2&quot;,&quot;headline3&quot;:&quot;HEADLINE INFO 3&quot;}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;topText&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;bugText&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;headline1&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;headline2&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;headline3&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    }&#xA;  }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Top Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/topText&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Bug Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/bugText&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Headline 01&quot;,&#xA;      &quot;#ref&quot;: &quot;#/headline1&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Headline 02&quot;,&#xA;      &quot;#ref&quot;: &quot;#/headline2&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Headline 03&quot;,&#xA;      &quot;#ref&quot;: &quot;#/headline3&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;#ref&quot;: &quot;REVERSE&quot;&#xA;    }&#xA;  ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="LOWERTHIRD_ANIM_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="LOWERTHIRD_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="LOWERTHIRD_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="NewFunction_0" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="playing" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="REVERSE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="FullScreen02_0" class="FullScreen02" nodeX="336.0" nodeY="-624.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="FullScreen02" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&quot;headerText&quot;:&quot;HEADER TEXT&quot;,&quot;mainText&quot;:&quot;MAIN TEXT&quot;,&quot;subText&quot;:&quot;SUB TEXT&quot;}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;headerText&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;mainText&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;subText&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    }&#xA;  }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Header Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/headerText&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Main Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/mainText&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Sub Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/subText&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;#ref&quot;: &quot;REVERSE&quot;&#xA;    }&#xA;  ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="FS02_ANIM_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="FS02_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="FS02_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="UPDATE_VIDEO" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="REVERSE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="FullScreen01_0" class="FullScreen01" nodeX="336.0" nodeY="-720.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="FullScreen01" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;headerText&quot;: &quot;HEADER TEXT&quot;,&#xA;  &quot;subText&quot;: &quot;SUB TEXT&quot;,&#xA;  &quot;info01&quot;: &quot;INFO 01&quot;,&#xA;  &quot;info02&quot;: &quot;INFO 02&quot;,&#xA;  &quot;info03&quot;: &quot;INFO 03&quot;,&#xA;  &quot;info04&quot;: &quot;INFO 04&quot;,&#xA;  &quot;info05&quot;: &quot;INFO 05&quot;&#xA;}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;headerText&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;subText&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;info01&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;info02&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;info03&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;info04&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;info05&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    }&#xA;  }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Header Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/headerText&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Sub Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/subText&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Info 01&quot;,&#xA;      &quot;#ref&quot;: &quot;#/info01&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Info 02&quot;,&#xA;      &quot;#ref&quot;: &quot;#/info02&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Info 03&quot;,&#xA;      &quot;#ref&quot;: &quot;#/info03&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Info 04&quot;,&#xA;      &quot;#ref&quot;: &quot;#/info04&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Info 05&quot;,&#xA;      &quot;#ref&quot;: &quot;#/info05&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;#ref&quot;: &quot;REVERSE&quot;&#xA;    }&#xA;  ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="FS_ANIM_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="FS_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="FS_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="REVERSE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="2WINDOWS_0" class="2WINDOWS" nodeX="336.0" nodeY="-848.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="2WINDOWS" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&quot;left&quot;:&quot;TEXT LEFT&quot;,&quot;right&quot;:&quot;TEXT RIGHT&quot;}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;left&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;right&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    } &#xA; }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Text Left&quot;,&#xA;      &quot;#ref&quot;: &quot;#/left&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Text Right&quot;,&#xA;      &quot;#ref&quot;: &quot;#/right&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;#ref&quot;: &quot;REVERSE&quot;&#xA;    }&#xA; ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="FiftyFifty_Anim_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="FiftyFifty_Anim_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="FiftyFifty_Anim_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="UPDATE_VIDEOS" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="REVERSE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="OTS_0" class="OTS" nodeX="336.0" nodeY="-1136.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="OTS" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;headerText&quot;: &quot;HEADER TEXT&quot;,&#xA;  &quot;infoText01&quot;: &quot;INFO 01&quot;,&#xA;  &quot;infoText02&quot;: &quot;INFO 02&quot;,&#xA;  &quot;infoText03&quot;: &quot;INFO 03&quot;,&#xA;  &quot;infoText04&quot;: &quot;INFO 04&quot;&#xA;}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;headerText&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;infoText01&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;infoText02&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;infoText03&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;infoText04&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    }&#xA;  }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Header Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/headerText&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Info Text 01&quot;,&#xA;      &quot;#ref&quot;: &quot;#/infoText01&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Info Text 02&quot;,&#xA;      &quot;#ref&quot;: &quot;#/infoText02&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Info Text 03&quot;,&#xA;      &quot;#ref&quot;: &quot;#/infoText03&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Info Text 04&quot;,&#xA;      &quot;#ref&quot;: &quot;#/infoText04&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;#ref&quot;: &quot;REVERSE&quot;&#xA;    }&#xA;  ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="OTS_Anim_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="OTS_Anim_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="OTS_Anim_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="REVERSE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="Merge_0" class="Merge" nodeX="1840.0" nodeY="-1056.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="BlendMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="Background" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_String name="BlendMode" index="1" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="1" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="2" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="2" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="3" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="3" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="4" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="4" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="5" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="5" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="6" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="6" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="7" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="7" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="8" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="8" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="9" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="9" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="10" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="10" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="11" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="11" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="12" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="12" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="13" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="13" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="14" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="14" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="15" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="15" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_String name="BlendMode" index="16" showAsInputPin="False" showAsOutputPin="False" value="NormalBlend" />
+				<ZDProperty_Float name="Opacity" index="16" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+			</ZDProperties>
+			<ZDDynamicInputPins>
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+				<ZDDynamicInputPin name="Input" />
+			</ZDDynamicInputPins>
+		</ZDNode>
+		<ZDNode name="Business_Transition_0" class="Business_Transition" nodeX="336.0" nodeY="-48.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="Business_Transition" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="1920, 1080" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&quot;text&quot;:&quot;DENEME&quot;}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;text&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    }&#xA;  }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/text&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;#ref&quot;: &quot;REVERSE&quot;&#xA;    }&#xA;  ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="Business_Anim_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="Business_Anim_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="Business_Anim_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="MediaInput_0" class="MediaInput" nodeX="-240.0" nodeY="-816.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="FilePath" index="0" showAsInputPin="False" showAsOutputPin="False" value="\\127.0.0.1\RealityWorkspace\Reality\Projects\images\4.jpg" />
+				<ZDProperty_Size name="MediaSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="2000, 2000" />
+				<ZDProperty_Integer name="Duration" index="0" showAsInputPin="False" showAsOutputPin="False" value="0" />
+				<ZDProperty_Boolean name="Loop" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="Play" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="Pause" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="Rewind" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="TextureBrush_1" class="TextureBrush" nodeX="64.0" nodeY="-608.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_Size name="ImageSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="2048, 2048" />
+				<ZDProperty_Color name="TintColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0, 1.0, 1.0, 1.0" />
+			</ZDProperties>
+		</ZDNode>
+		<ZDNode name="PixelStream_0" class="PixelStream" nodeX="2752.0" nodeY="-992.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="HTTPIP" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0.0.0" />
+				<ZDProperty_Integer name="HTTPPort" index="0" showAsInputPin="False" showAsOutputPin="False" value="8080" />
+				<ZDProperty_String name="UEIP" index="0" showAsInputPin="False" showAsOutputPin="False" value="127.0.0.1" />
+				<ZDProperty_Integer name="UEPort" index="0" showAsInputPin="False" showAsOutputPin="False" value="8124" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="Start" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="Stop" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="ArrayExample_0" class="ArrayExample" nodeX="736.0" nodeY="-1248.0">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="ArrayExample" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="1920, 1080" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&quot;name&quot;:&quot;Atlanta&quot;,&quot;country&quot;:&quot;US&quot;,&quot;weather&quot;:[{&quot;main&quot;:&quot;Clear&quot;,&quot;temp&quot;:275.02,&quot;humidity&quot;:42,&quot;color&quot;:[9,255,0,255],&quot;image&quot;:&quot;&quot;},{&quot;main&quot;:&quot;Clear&quot;,&quot;temp&quot;:273.71,&quot;humidity&quot;:15,&quot;color&quot;:[55,223,182,255],&quot;image&quot;:&quot;&quot;},{&quot;main&quot;:&quot;Clouds&quot;,&quot;temp&quot;:272.95,&quot;humidity&quot;:97,&quot;color&quot;:[154,154,242,255],&quot;image&quot;:&quot;&quot;}]}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;cities&quot;: {&#xA;      &quot;type&quot;: &quot;array&quot;,&#xA;      &quot;items&quot;: {&#xA;        &quot;type&quot;: &quot;object&quot;,&#xA;        &quot;properties&quot;: {&#xA;          &quot;no&quot;: {&#xA;            &quot;type&quot;: &quot;number&quot;,&#xA;            &quot;title&quot;: &quot;City index&quot;&#xA;          },&#xA;          &quot;name&quot;: {&#xA;            &quot;type&quot;: &quot;string&quot;,&#xA;            &quot;title&quot;: &quot;City name&quot;&#xA;          },&#xA;          &quot;temperature&quot;: {&#xA;            &quot;type&quot;: &quot;number&quot;,&#xA;            &quot;title&quot;: &quot;Temperature&quot;&#xA;          },&#xA;          &quot;color&quot;: {&#xA;            &quot;type&quot;: &quot;color&quot;,&#xA;            &quot;title&quot;: &quot;Color&quot;&#xA;          }&#xA;        }&#xA;      }&#xA;    }&#xA;  }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;type&quot;: &quot;array&quot;,&#xA;      &quot;#ref&quot;: &quot;#/cities&quot;,&#xA;      &quot;rowTemplate&quot;: [&#xA;        {&#xA;          &quot;title&quot;: &quot;City index&quot;,&#xA;          &quot;type&quot;: &quot;number&quot;,&#xA;          &quot;#ref&quot;: &quot;/no&quot;&#xA;        },&#xA;        {&#xA;          &quot;title&quot;: &quot;City name&quot;,&#xA;          &quot;type&quot;: &quot;string&quot;,&#xA;          &quot;#ref&quot;: &quot;/name&quot;&#xA;        },&#xA;        {&#xA;          &quot;title&quot;: &quot;Temperature&quot;,&#xA;          &quot;type&quot;: &quot;number&quot;,&#xA;          &quot;#ref&quot;: &quot;/temperature&quot;&#xA;        },&#xA;        {&#xA;          &quot;title&quot;: &quot;Color&quot;,&#xA;          &quot;type&quot;: &quot;color&quot;,&#xA;          &quot;#ref&quot;: &quot;/color&quot;&#xA;        }&#xA;      ]&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;SHOW&quot;,&#xA;	  &quot;backgroundColor&quot;: &quot;#083118&quot;,&#xA;	  &quot;foregroundColor&quot;: &quot;#4bff00&quot;,&#xA;	  &quot;showInRundown&quot;: true&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;#ref&quot;: &quot;HIDE&quot;,&#xA;	  &quot;backgroundColor&quot;: &quot;#de4444&quot;,&#xA;	  &quot;foregroundColor&quot;: &quot;white&quot;,&#xA;	  &quot;showInRundown&quot;: true&#xA;	  &#xA;    }&#xA;  ]&#xA;}&#xA;" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="fade_in_header_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="fade_in_header_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="fade_in_header_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="HIDE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="SHOW" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="Phono_0" class="Phono" nodeX="332.562134" nodeY="-1003.776245">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="Phono" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&quot;name&quot;:&quot;abla 11&quot;,&quot;text&quot;:&quot;guleryuzlu temiz sisli&quot;,&quot;image&quot;:&quot;\\\\127.0.0.1\\RealityWorkspace\\Reality\\Projects\\images\\4.jpg&quot;}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;name&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;text&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;image&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    }&#xA;  }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Name&quot;,&#xA;      &quot;#ref&quot;: &quot;#/name&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;string&quot;,&#xA;      &quot;title&quot;: &quot;Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/text&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;asset&quot;,&#xA;      &quot;title&quot;: &quot;Image&quot;,&#xA;      &quot;#ref&quot;: &quot;#/image&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;showInRundown&quot;: true,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;PLAY&quot;,&#xA;      &quot;delay&quot;: 0.07,&#xA;      &quot;extras&quot;: [&#xA;        {&#xA;          &quot;command&quot;: &quot;updateNodeData&quot;,&#xA;          &quot;nodePath&quot;: &quot;MediaInput_0&quot;,&#xA;          &quot;propertyPath&quot;: &quot;File//FilePath/0&quot;,&#xA;          &quot;transformFunction&quot;: &quot;return params.data.image || &apos;R:\\Reality\\Assets\\b7e735eb-5909-4dcc-aff2-4a35859ca78d.png&apos;;&quot;&#xA;        },&#xA;        {&#xA;          &quot;command&quot;: &quot;callNodeFunction&quot;,&#xA;          &quot;delay&quot;: 0.06,&#xA;          &quot;functionPath&quot;: &quot;UPDATE_PHONO&quot;&#xA;        }&#xA;      ]&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;showInRundown&quot;: true,&#xA;      &quot;#ref&quot;: &quot;REVERSE&quot;&#xA;    }&#xA;  ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="PHONO_ANIM_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="PHONO_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="PHONO_ANIM_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="UPDATE_PHONO" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="REVERSE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+		<ZDNode name="Weather_0" class="Weather" nodeX="344.267395" nodeY="375.677734">
+			<ZDProperties>
+				<ZDProperty_String name="Description" index="0" showAsInputPin="False" showAsOutputPin="False" value="" />
+				<ZDProperty_Boolean name="EnableDebug" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="Widget" index="0" showAsInputPin="False" showAsOutputPin="False" value="Weather" />
+				<ZDProperty_Size name="RenderSize" index="0" showAsInputPin="False" showAsOutputPin="False" value="3840, 2160" />
+				<ZDProperty_Float name="RenderScale" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+				<ZDProperty_Color name="ClearColor" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0, 0.0, 0.0, 0.0" />
+				<ZDProperty_Boolean name="UpdateEveryFrame" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_Boolean name="TwoWayBinding" index="0" showAsInputPin="False" showAsOutputPin="False" value="True" />
+				<ZDProperty_Boolean name="SYMBOL_CHANGE" index="0" showAsInputPin="False" showAsOutputPin="False" value="False" />
+				<ZDProperty_String name="JsonData" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&quot;text&quot;:&quot;5 DAYS FORECAST&quot;,&quot;subText&quot;:&quot;CITY&quot;,&quot;days&quot;:[{&quot;name&quot;:&quot;MON&quot;,&quot;tempHi&quot;:21,&quot;tempLo&quot;:11,&quot;picIdx&quot;:1},{&quot;name&quot;:&quot;TUE&quot;,&quot;tempHi&quot;:22,&quot;tempLo&quot;:12,&quot;picIdx&quot;:2},{&quot;name&quot;:&quot;WED&quot;,&quot;tempHi&quot;:23,&quot;tempLo&quot;:13,&quot;picIdx&quot;:3},{&quot;name&quot;:&quot;THU&quot;,&quot;tempHi&quot;:24,&quot;tempLo&quot;:14,&quot;picIdx&quot;:4},{&quot;name&quot;:&quot;FRI&quot;,&quot;tempHi&quot;:25,&quot;tempLo&quot;:15,&quot;picIdx&quot;:5}]}" />
+				<ZDProperty_String name="JsonSchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;type&quot;: &quot;object&quot;,&#xA;  &quot;properties&quot;: {&#xA;    &quot;text&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;subText&quot;: {&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    &quot;days&quot;: {&#xA;      &quot;type&quot;: &quot;array&quot;,&#xA;      &quot;items&quot;: {&#xA;        &quot;type&quot;: &quot;object&quot;,&#xA;        &quot;properties&quot;: {&#xA;          &quot;name&quot;: {&#xA;            &quot;type&quot;: &quot;string&quot;&#xA;          },&#xA;          &quot;tempHi&quot;: {&#xA;            &quot;type&quot;: &quot;integer&quot;&#xA;          },&#xA;          &quot;tempLo&quot;: {&#xA;            &quot;type&quot;: &quot;integer&quot;&#xA;          },&#xA;          &quot;picIdx&quot;: {&#xA;            &quot;type&quot;: &quot;integer&quot;&#xA;          }&#xA;        }&#xA;      }&#xA;    }&#xA;  }&#xA;}" />
+				<ZDProperty_String name="JsonUISchema" index="0" showAsInputPin="False" showAsOutputPin="False" value="{&#xA;  &quot;items&quot;: [&#xA;    {&#xA;      &quot;title&quot;: &quot;Weather Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/text&quot;,&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    {&#xA;      &quot;title&quot;: &quot;Sub Text&quot;,&#xA;      &quot;#ref&quot;: &quot;#/subText&quot;,&#xA;      &quot;type&quot;: &quot;string&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;array&quot;,&#xA;      &quot;#ref&quot;: &quot;#/days&quot;,&#xA;      &quot;rowTemplate&quot;: [&#xA;        {&#xA;          &quot;title&quot;: &quot;Name&quot;,&#xA;          &quot;type&quot;: &quot;string&quot;,&#xA;          &quot;#ref&quot;: &quot;/name&quot;&#xA;        },&#xA;        {&#xA;          &quot;title&quot;: &quot;Temp Hi&quot;,&#xA;          &quot;type&quot;: &quot;number&quot;,&#xA;          &quot;#ref&quot;: &quot;/tempHi&quot;&#xA;        },&#xA;        {&#xA;          &quot;title&quot;: &quot;Temp Lo&quot;,&#xA;          &quot;type&quot;: &quot;number&quot;,&#xA;          &quot;#ref&quot;: &quot;/tempLo&quot;&#xA;        },&#xA;        {&#xA;          &quot;title&quot;: &quot;Picture&quot;,&#xA;          &quot;type&quot;: &quot;number&quot;,&#xA;          &quot;#ref&quot;: &quot;/picIdx&quot;&#xA;        }&#xA;      ]&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;SHOW&quot;,&#xA;      &quot;nodePath&quot;: &quot;Weather_0&quot;,&#xA;      &quot;showInRundown&quot;: true,&#xA;      &quot;updateData&quot;: true,&#xA;      &quot;#ref&quot;: &quot;//PLAY/0&quot;&#xA;    },&#xA;    {&#xA;      &quot;type&quot;: &quot;button&quot;,&#xA;      &quot;title&quot;: &quot;HIDE&quot;,&#xA;      &quot;nodePath&quot;: &quot;Weather_0&quot;,&#xA;      &quot;showInRundown&quot;: true,&#xA;      &quot;#ref&quot;: &quot;//REVERSE/0&quot;&#xA;    }&#xA;  ]&#xA;}" />
+			</ZDProperties>
+			<ZDFunctions>
+				<ZDFunction name="PlayAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="Weather_BG_INST" />
+						<ZDProperty_String name="PlayMode" index="0" showAsInputPin="False" showAsOutputPin="False" value="Forward" />
+						<ZDProperty_Float name="StartTime" index="0" showAsInputPin="False" showAsOutputPin="False" value="0.0" />
+						<ZDProperty_Integer name="LoopCount" index="0" showAsInputPin="False" showAsOutputPin="False" value="1" />
+						<ZDProperty_Float name="PlaybackSpeed" index="0" showAsInputPin="False" showAsOutputPin="False" value="1.0" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="StopAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="Weather_BG_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="PauseAnimation" index="0" showAsInputEvent="False" showAsOutputEvent="False">
+					<ZDProperties>
+						<ZDProperty_String name="Animation" index="0" showAsInputPin="False" showAsOutputPin="False" value="Weather_BG_INST" />
+					</ZDProperties>
+				</ZDFunction>
+				<ZDFunction name="REVERSE" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+				<ZDFunction name="PLAY" index="0" showAsInputEvent="False" showAsOutputEvent="False" />
+			</ZDFunctions>
+		</ZDNode>
+	</ZDNodes>
+	<ZDConnections>
+		<ZDConnection fromNode="OTS_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="1" />
+		<ZDConnection fromNode="2WINDOWS_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="4" />
+		<ZDConnection fromNode="FullScreen01_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="5" />
+		<ZDConnection fromNode="FullScreen02_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="6" />
+		<ZDConnection fromNode="LowerThird_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="7" />
+		<ZDConnection fromNode="NameBand_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="8" />
+		<ZDConnection fromNode="Headlines_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="9" />
+		<ZDConnection fromNode="Merge_0" fromPin="Output" fromIndex="0" toNode="EngineControl" toPin="Display" toIndex="0" />
+		<ZDConnection fromNode="Transition_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="11" />
+		<ZDConnection fromNode="Business_Transition_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="12" />
+		<ZDConnection fromNode="WeatherTransition_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="13" />
+		<ZDConnection fromNode="Ticker_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="14" />
+		<ZDConnection fromNode="CLOCK_BUG_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="15" />
+		<ZDConnection fromNode="MediaInput_0" fromPin="Output" fromIndex="0" toNode="TextureBrush_1" toPin="Texture" toIndex="0" />
+		<ZDConnection fromNode="ArrayExample_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="0" />
+		<ZDConnection fromNode="Merge_0" fromPin="Output" fromIndex="0" toNode="Mixer Default" toPin="Channel1" toIndex="0" />
+		<ZDConnection fromNode="Mixer Default" fromPin="Program" fromIndex="0" toNode="PixelStream_0" toPin="Input" toIndex="0" />
+		<ZDConnection fromNode="Phono_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="2" />
+		<ZDConnection fromNode="TextureBrush_1" fromPin="Brush" fromIndex="0" toNode="Phono_0" toPin="PIC" toIndex="0" />
+		<ZDConnection fromNode="Weather_0" fromPin="Output" fromIndex="0" toNode="Merge_0" toPin="Input" toIndex="3" />
+	</ZDConnections>
+</ZDNodeGraph>

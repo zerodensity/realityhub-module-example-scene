@@ -1,0 +1,9 @@
+{
+  "name": "ue-ibc-cgs",
+  "version": "4.6.1",
+  "description": "Reality HUB - Demo Project",
+  "main": "index.js",
+  "repository": "git@github.com:bvion/ue-ibc-cgs.git",
+  "author": "Bulent Vural <bulent.vural@zerodensity.tv>",
+  "license": "UNLICENSED"
+}

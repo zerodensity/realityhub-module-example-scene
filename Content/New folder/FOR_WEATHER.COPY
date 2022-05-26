@@ -1,0 +1,577 @@
+Begin Object Class=/Script/UMGEditor.WidgetBlueprint Name="FOR_WEATHER"
+   Begin Object Class=/Script/UMG.WidgetTree Name="WidgetTree" Archetype=WidgetTree'/Script/UMGEditor.Default__WidgetBlueprint:WidgetTree'
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_0"
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_4"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_5"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_91"
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_0"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_1"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_2"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_3"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="WHITESMALL"
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="ORANGESMALL"
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="GREYSMALL"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="WEATHER_SUB_TEXT"
+      End Object
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_207"
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_0"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_1"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_2"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_4"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="GREYBIG"
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="WHITEBIG"
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="ORANGEBIG"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="WEATHER_TEXT"
+      End Object
+   End Object
+   Begin Object Class=/Script/UMG.WidgetAnimation Name="FOR_WEATHER_ANIM"
+      Begin Object Class=/Script/MovieScene.MovieScene Name="FOR_WEATHER_ANIM"
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_2"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_3"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_4"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_5"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_6"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_7"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_9"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneFloatTrack Name="MovieSceneFloatTrack_0"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneFloatSection Name="MovieSceneFloatSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFloatSection:EaseInFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFloatSection:EaseOutFunction'
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieScene2DTransformTrack Name="MovieScene2DTransformTrack_10"
+            Begin Object Class=/Script/UMG.MovieScene2DTransformSection Name="MovieScene2DTransformSection_0"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseInFunction'
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype=MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieScene2DTransformSection:EaseOutFunction'
+               End Object
+            End Object
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_3"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_2"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="Construct"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_0"
+      End Object
+   End Object
+   Begin Object Name="WidgetTree"
+      Begin Object Name="CanvasPanel_0"
+         Begin Object Name="CanvasPanelSlot_4"
+            LayoutData=(Offsets=(Left=195.480774,Top=-688.785706,Right=3448.238525,Bottom=78.314316),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+            Parent=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_0"'
+            Content=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_91"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_5"
+            LayoutData=(Offsets=(Left=-655.398865,Top=-803.807495,Right=2533.167725,Bottom=149.792587),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+            Parent=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_0"'
+            Content=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_207"'
+         End Object
+         Slots(0)=CanvasPanelSlot'"CanvasPanelSlot_4"'
+         Slots(1)=CanvasPanelSlot'"CanvasPanelSlot_5"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="CanvasPanel_91"
+         Begin Object Name="CanvasPanelSlot_0"
+            LayoutData=(Offsets=(Right=3458.281494,Bottom=87.837036),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+            Parent=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_91"'
+            Content=Image'"FOR_WEATHER:WidgetTree.WHITESMALL"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_1"
+            LayoutData=(Offsets=(Right=3458.281494,Bottom=87.837036),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+            Parent=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_91"'
+            Content=Image'"FOR_WEATHER:WidgetTree.ORANGESMALL"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_2"
+            LayoutData=(Offsets=(Right=3458.281494,Bottom=87.837036),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+            Parent=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_91"'
+            Content=Image'"FOR_WEATHER:WidgetTree.GREYSMALL"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_3"
+            LayoutData=(Offsets=(Left=-1669.619873,Top=-0.666667,Right=198.000000,Bottom=57.999996),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.000000,Y=0.500000))
+            bAutoSize=True
+            Parent=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_91"'
+            Content=TextBlock'"FOR_WEATHER:WidgetTree.WEATHER_SUB_TEXT"'
+         End Object
+         Slots(0)=CanvasPanelSlot'"CanvasPanelSlot_0"'
+         Slots(1)=CanvasPanelSlot'"CanvasPanelSlot_1"'
+         Slots(2)=CanvasPanelSlot'"CanvasPanelSlot_2"'
+         Slots(3)=CanvasPanelSlot'"CanvasPanelSlot_3"'
+         bExpandedInDesigner=True
+         Clipping=ClipToBounds
+      End Object
+      Begin Object Name="WHITESMALL"
+         Brush=(ImageSize=(X=1024.000000,Y=1024.000000),ResourceObject=Texture2D'"/Game/Textures/weather_blue01.weather_blue01"')
+         RenderTransform=(Translation=(X=-3483.962891,Y=0.000000))
+         DisplayLabel="WHITESMALL"
+      End Object
+      Begin Object Name="ORANGESMALL"
+         Brush=(ImageSize=(X=1024.000000,Y=1024.000000),ResourceObject=Texture2D'"/Game/Textures/weather_blue02.weather_blue02"')
+         RenderTransform=(Translation=(X=-4050.192627,Y=0.000000))
+         DisplayLabel="ORANGESMALL"
+      End Object
+      Begin Object Name="GREYSMALL"
+         Brush=(ImageSize=(X=1024.000000,Y=1024.000000),ResourceObject=Texture2D'"/Game/Textures/T_White_Grad.T_White_Grad"')
+         RenderTransform=(Translation=(X=-4007.000000,Y=0.000000))
+         DisplayLabel="GREYSMALL"
+      End Object
+      Begin Object Name="WEATHER_SUB_TEXT"
+         Text=NSLOCTEXT("[2797472F42D022122BDC6FB129525ED1]", "E44D5ADB443444BE966361AA1CCEA019", "FROM WEDNESDAY TO SUNDAY")
+         ColorAndOpacity=(SpecifiedColor=(R=0.031896,G=0.039546,B=0.063010,A=1.000000))
+         Font=(Size=42)
+         RenderTransform=(Translation=(X=-2548.651611,Y=0.000000))
+         bIsVariable=True
+         DisplayLabel="WEATHER_SUB_TEXT"
+      End Object
+      Begin Object Name="CanvasPanel_207"
+         Begin Object Name="CanvasPanelSlot_0"
+            LayoutData=(Offsets=(Right=2544.888672,Bottom=148.222275),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+            Parent=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_207"'
+            Content=Image'"FOR_WEATHER:WidgetTree.GREYBIG"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_1"
+            LayoutData=(Offsets=(Right=2544.888672,Bottom=148.222275),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+            Parent=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_207"'
+            Content=Image'"FOR_WEATHER:WidgetTree.WHITEBIG"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_2"
+            LayoutData=(Offsets=(Right=2544.888672,Bottom=148.222275),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.500000,Y=0.500000))
+            Parent=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_207"'
+            Content=Image'"FOR_WEATHER:WidgetTree.ORANGEBIG"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_4"
+            LayoutData=(Offsets=(Left=-861.728394,Top=-1.000000,Right=194.000000,Bottom=68.000000),Anchors=(Minimum=(X=0.500000,Y=0.500000),Maximum=(X=0.500000,Y=0.500000)),Alignment=(X=0.000000,Y=0.500000))
+            bAutoSize=True
+            Parent=CanvasPanel'"FOR_WEATHER:WidgetTree.CanvasPanel_207"'
+            Content=TextBlock'"FOR_WEATHER:WidgetTree.WEATHER_TEXT"'
+         End Object
+         Slots(0)=CanvasPanelSlot'"CanvasPanelSlot_0"'
+         Slots(1)=CanvasPanelSlot'"CanvasPanelSlot_1"'
+         Slots(2)=CanvasPanelSlot'"CanvasPanelSlot_2"'
+         Slots(3)=CanvasPanelSlot'"CanvasPanelSlot_4"'
+         bExpandedInDesigner=True
+         Clipping=ClipToBounds
+      End Object
+      Begin Object Name="GREYBIG"
+         Brush=(ImageSize=(X=1024.000000,Y=1024.000000),ResourceObject=Texture2D'"/Game/Textures/T_White_Grad.T_White_Grad"')
+         RenderTransform=(Translation=(X=-2560.087402,Y=0.000000))
+         DisplayLabel="GREYBIG"
+      End Object
+      Begin Object Name="WHITEBIG"
+         Brush=(ImageSize=(X=1024.000000,Y=1024.000000),ResourceObject=Texture2D'"/Game/Textures/weather_blue02.weather_blue02"')
+         RenderTransform=(Translation=(X=-2580.406494,Y=0.000000))
+         DisplayLabel="WHITEBIG"
+      End Object
+      Begin Object Name="ORANGEBIG"
+         Brush=(ImageSize=(X=1024.000000,Y=1024.000000),ResourceObject=Texture2D'"/Game/Textures/weather_blue01.weather_blue01"')
+         RenderTransform=(Translation=(X=-2556.865479,Y=0.000000))
+         DisplayLabel="ORANGEBIG"
+      End Object
+      Begin Object Name="WEATHER_TEXT"
+         Text=NSLOCTEXT("[2797472F42D022122BDC6FB129525ED1]", "7209EDD14C22A3B27DDAAC903982380F", "FIVE DAYS WEATHER FORECAST")
+         Font=(Size=80)
+         RenderTransform=(Translation=(X=-2128.000000,Y=0.000000))
+         bIsVariable=True
+         RenderOpacity=0.000000
+         DisplayLabel="WEATHER_TEXT"
+      End Object
+      RootWidget=CanvasPanel'"CanvasPanel_0"'
+   End Object
+   Begin Object Name="FOR_WEATHER_ANIM"
+      Begin Object Name="FOR_WEATHER_ANIM"
+         Begin Object Name="MovieScene2DTransformTrack_2"
+            Begin Object Name="MovieScene2DTransformSection_0"
+               Begin Object Name="EaseInFunction"
+               End Object
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Translation(0)=(Times=((),(Value=31200)),Values=((Value=-3483.962891),()))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_2.MovieScene2DTransformSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Exclusive:31200
+               Signature=2D4FD717482C5AEF66A05CAA8E89F1A1
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            SortingOrder=0
+            Signature=A2B597084DE15362D93483A487F8AEE1
+         End Object
+         Begin Object Name="MovieScene2DTransformTrack_3"
+            Begin Object Name="MovieScene2DTransformSection_0"
+               Begin Object Name="EaseInFunction"
+               End Object
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Translation(0)=(Times=((Value=16800),(Value=67200)),Values=((Value=-3483.962891),()))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_3.MovieScene2DTransformSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_3.MovieScene2DTransformSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:69600
+               Signature=89B3062F40AD33A798F14199DF7B151E
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            SortingOrder=0
+            Signature=14267A9241A4045A94D17490AB203D43
+         End Object
+         Begin Object Name="MovieScene2DTransformTrack_4"
+            Begin Object Name="MovieScene2DTransformSection_0"
+               Begin Object Name="EaseInFunction"
+               End Object
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Translation(0)=(Times=((Value=33600),(Value=100800)),Values=((Value=-3483.962891),()))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_4.MovieScene2DTransformSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:100800
+               Signature=3E91D5BE4447F2791356CDA601E55FE0
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            SortingOrder=0
+            Signature=8C608BCA4CF41E6DD9B6EEB9A3712EF8
+         End Object
+         Begin Object Name="MovieScene2DTransformTrack_5"
+            Begin Object Name="MovieScene2DTransformSection_0"
+               Begin Object Name="EaseInFunction"
+               End Object
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Translation(0)=(Times=((),(Value=36000)),Values=((Value=-2560.087402),()))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_5.MovieScene2DTransformSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_5.MovieScene2DTransformSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:36000
+               Signature=D9D08BDD45EBB718308F9D93F4CE305B
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            SortingOrder=0
+            Signature=C12912BD4CD382FF4A6FD199565A0E27
+         End Object
+         Begin Object Name="MovieScene2DTransformTrack_6"
+            Begin Object Name="MovieScene2DTransformSection_0"
+               Begin Object Name="EaseInFunction"
+               End Object
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Translation(0)=(Times=((),(Value=24000),(Value=60000)),Values=((Value=-2575.479736),(Value=-2580.406494,Tangent=(ArriveTangent=0.042925,LeaveTangent=0.042925)),()))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_6.MovieScene2DTransformSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_6.MovieScene2DTransformSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:60000
+               Signature=2B8CBE3145C7F8C9F56041A6DE074CDD
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            SortingOrder=0
+            Signature=DCDE4106490BE56A363871BCCCB04696
+         End Object
+         Begin Object Name="MovieScene2DTransformTrack_7"
+            Begin Object Name="MovieScene2DTransformSection_0"
+               Begin Object Name="EaseInFunction"
+               End Object
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Translation(0)=(Times=((),(Value=48000),(Value=84000)),Values=((Value=-2575.479736),(Value=-2580.406494,Tangent=(ArriveTangent=0.042925,LeaveTangent=0.042925)),()))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_7.MovieScene2DTransformSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_7.MovieScene2DTransformSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:84000
+               Signature=5F45217448707BA0F2BAF8A747F09CBD
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            SortingOrder=0
+            Signature=7B158E244EDA98C97FA304932D7BB693
+         End Object
+         Begin Object Name="MovieScene2DTransformTrack_9"
+            Begin Object Name="MovieScene2DTransformSection_0"
+               Begin Object Name="EaseInFunction"
+               End Object
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Translation(0)=(Times=((),(Value=60000),(Value=96000)),Values=((Value=-2128.000000,InterpMode=RCIM_Linear),(Value=-2128.000000,TangentMode=RCTM_Break,Tangent=(LeaveTangent=0.338432,TangentWeightMode=RCTWM_WeightedBoth,ArriveTangentWeight=0.333333,LeaveTangentWeight=853.879395)),()))
+               Translation(1)=(Times=(()),Values=(()))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_9.MovieScene2DTransformSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_9.MovieScene2DTransformSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:96000
+               Signature=4B5B0DE74E085706FC0E4C8B1B94E167
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            SortingOrder=0
+            Signature=272BA23F456D972930AFB7AB708BF540
+         End Object
+         Begin Object Name="MovieSceneFloatTrack_0"
+            Begin Object Name="MovieSceneFloatSection_0"
+               Begin Object Name="EaseInFunction"
+               End Object
+               Begin Object Name="EaseOutFunction"
+               End Object
+               FloatCurve=(Times=((),(Value=48000)),Values=((),(Value=1.000000)))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:48000
+               Signature=2427C0944B175021BEF524BEAFEC8F2D
+            End Object
+            UniqueTrackName="RenderOpacity"
+            PropertyName="RenderOpacity"
+            PropertyPath="RenderOpacity"
+            Sections(0)=MovieSceneFloatSection'"MovieSceneFloatSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderOpacity", "Render Opacity")
+            SortingOrder=1
+            Signature=F06EAA03415A9E2A97AB73A3CB28C70B
+         End Object
+         Begin Object Name="MovieScene2DTransformTrack_10"
+            Begin Object Name="MovieScene2DTransformSection_0"
+               Begin Object Name="EaseInFunction"
+               End Object
+               Begin Object Name="EaseOutFunction"
+               End Object
+               Translation(0)=(Times=((),(Value=36000),(Value=84000)),Values=((Value=-2548.651611),(Value=-2548.651611,Tangent=(ArriveTangent=0.030341,LeaveTangent=0.030341)),()))
+               Translation(1)=(Times=(()),Values=(()))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_10.MovieScene2DTransformSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'FOR_WEATHER:FOR_WEATHER_ANIM.FOR_WEATHER_ANIM.MovieScene2DTransformTrack_10.MovieScene2DTransformSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:84000
+               Signature=E756C75B4E36DC13C1206F93FEEF0D49
+            End Object
+            UniqueTrackName="RenderTransform"
+            PropertyName="RenderTransform"
+            PropertyPath="RenderTransform"
+            Sections(0)=MovieScene2DTransformSection'"MovieScene2DTransformSection_0"'
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderTransform", "Transform")
+            SortingOrder=0
+            Signature=9803CD9D49D17B6FAE7208AB0434C806
+         End Object
+         Possessables(0)=(Guid=4B8A335142302DDBE4A86A872A67F6AB,Name="WHITESMALL",PossessedObjectClass=Class'"/Script/UMG.Image"')
+         Possessables(1)=(Guid=1A1337174180B221FA4DA1A16077EF84,Name="WHITESMALL",PossessedObjectClass=Class'"/Script/UMG.Image"')
+         Possessables(2)=(Guid=E1149D2E4CE00E6B83AEA2B80A574643,Name="WHITESMALL",PossessedObjectClass=Class'"/Script/UMG.Image"')
+         Possessables(3)=(Guid=C6E1A01D496AB21738104D8F7C2245A9,Name="GREYBIG",PossessedObjectClass=Class'"/Script/UMG.Image"')
+         Possessables(4)=(Guid=BDBD9D1A42B9011A5466EFBFAA7858C3,Name="WHITEBIG",PossessedObjectClass=Class'"/Script/UMG.Image"')
+         Possessables(5)=(Guid=D9E57FED4E81A34908715F915E9150BE,Name="WHITEBIG",PossessedObjectClass=Class'"/Script/UMG.Image"')
+         Possessables(6)=(Guid=29D874254DE8599B9223F993D5E828F4,Name="WEATHER_TEXT",PossessedObjectClass=Class'"/Script/UMG.TextBlock"')
+         Possessables(7)=(Guid=3A113FEC4615A6D38EE67E93DBC363BF,Name="WEATHER_SUB_TEXT",PossessedObjectClass=Class'"/Script/UMG.TextBlock"')
+         ObjectBindings(0)=(ObjectGuid=4B8A335142302DDBE4A86A872A67F6AB,BindingName="WHITESMALL",Tracks=(MovieScene2DTransformTrack'"MovieScene2DTransformTrack_2"'),SortingOrder=0)
+         ObjectBindings(1)=(ObjectGuid=1A1337174180B221FA4DA1A16077EF84,BindingName="WHITESMALL",Tracks=(MovieScene2DTransformTrack'"MovieScene2DTransformTrack_3"'),SortingOrder=1)
+         ObjectBindings(2)=(ObjectGuid=E1149D2E4CE00E6B83AEA2B80A574643,BindingName="WHITESMALL",Tracks=(MovieScene2DTransformTrack'"MovieScene2DTransformTrack_4"'),SortingOrder=2)
+         ObjectBindings(3)=(ObjectGuid=C6E1A01D496AB21738104D8F7C2245A9,BindingName="GREYBIG",Tracks=(MovieScene2DTransformTrack'"MovieScene2DTransformTrack_5"'),SortingOrder=3)
+         ObjectBindings(4)=(ObjectGuid=BDBD9D1A42B9011A5466EFBFAA7858C3,BindingName="WHITEBIG",Tracks=(MovieScene2DTransformTrack'"MovieScene2DTransformTrack_6"'),SortingOrder=4)
+         ObjectBindings(5)=(ObjectGuid=D9E57FED4E81A34908715F915E9150BE,BindingName="WHITEBIG",Tracks=(MovieScene2DTransformTrack'"MovieScene2DTransformTrack_7"'),SortingOrder=5)
+         ObjectBindings(6)=(ObjectGuid=29D874254DE8599B9223F993D5E828F4,BindingName="TextBlock_286",Tracks=(MovieScene2DTransformTrack'"MovieScene2DTransformTrack_9"',MovieSceneFloatTrack'"MovieSceneFloatTrack_0"'),SortingOrder=6)
+         ObjectBindings(7)=(ObjectGuid=3A113FEC4615A6D38EE67E93DBC363BF,BindingName="TextBlock_451",Tracks=(MovieScene2DTransformTrack'"MovieScene2DTransformTrack_10"'),SortingOrder=7)
+         PlaybackRange=Inclusive:0:Exclusive:100801
+         DisplayRate=(Numerator=25)
+         ObjectsToDisplayNames=(("1A1337174180B221FA4DA1A16077EF84", NSLOCTEXT("", "50CE92B54F89E18865FD2EA407AFA508", "ORANGESMALL")),("E1149D2E4CE00E6B83AEA2B80A574643", NSLOCTEXT("", "B0E852DC42768EB57B4DD3ABAEED5A34", "GREYSMALL")),("D9E57FED4E81A34908715F915E9150BE", NSLOCTEXT("", "4CC3AA624942DB751DA49D8221271404", "ORANGEBIG")))
+         EditorData=(ExpansionStates=(("82C7487848517162B8F2C78DDA024B8E", ()),("82C7487848517162B8F2C78DDA024B8E.MovieScene2DTransformTrack_0", ()),("82C7487848517162B8F2C78DDA024B8E.MovieScene2DTransformTrack_0.Translation", ()),("D79F744E4C5C8ED12C4D19A76EF200D7", (bExpanded=False)),("91EDCF1F44B43D666816B3814E0893F8", (bExpanded=False)),("91EDCF1F44B43D666816B3814E0893F8.E26606314A68E50C1EF16EB381207999", ()),("91EDCF1F44B43D666816B3814E0893F8.E26606314A68E50C1EF16EB381207999.MovieSceneMarginTrack_0", ()),("D79F744E4C5C8ED12C4D19A76EF200D7.MovieScene2DTransformTrack_1", ()),("48ABE5FF4CDD80C5C34659ADCAD76388", (bExpanded=False)),("09DFAF9345F024BB15B820A9ABA087AB", (bExpanded=False)),("09DFAF9345F024BB15B820A9ABA087AB.43C9019946B3C5370038DEB4D84957F5", ()),("4B8A335142302DDBE4A86A872A67F6AB", (bExpanded=False)),("1A1337174180B221FA4DA1A16077EF84", (bExpanded=False)),("E1149D2E4CE00E6B83AEA2B80A574643", (bExpanded=False)),("1A1337174180B221FA4DA1A16077EF84.MovieScene2DTransformTrack_3", (bExpanded=False)),("C6E1A01D496AB21738104D8F7C2245A9", (bExpanded=False)),("BDBD9D1A42B9011A5466EFBFAA7858C3", (bExpanded=False)),("D9E57FED4E81A34908715F915E9150BE", (bExpanded=False)),("567F11F44F9A4AC45DE7A79C7E3F1466", ()),("42BEBA494A604004B0099BA5A7186BCC", ()),("29D874254DE8599B9223F993D5E828F4", ()),("3A113FEC4615A6D38EE67E93DBC363BF", (bExpanded=False))),ViewStart=-0.939471,ViewEnd=2.340114,WorkStart=-1.120634,WorkEnd=5.500018)
+         Signature=1E116A984114CA074A2191B6B8AB0D4A
+      End Object
+      MovieScene=MovieScene'"FOR_WEATHER_ANIM"'
+      AnimationBindings(0)=(WidgetName="WHITESMALL",AnimationGuid=4B8A335142302DDBE4A86A872A67F6AB)
+      AnimationBindings(1)=(WidgetName="ORANGESMALL",AnimationGuid=1A1337174180B221FA4DA1A16077EF84)
+      AnimationBindings(2)=(WidgetName="GREYSMALL",AnimationGuid=E1149D2E4CE00E6B83AEA2B80A574643)
+      AnimationBindings(3)=(WidgetName="GREYBIG",AnimationGuid=C6E1A01D496AB21738104D8F7C2245A9)
+      AnimationBindings(4)=(WidgetName="WHITEBIG",AnimationGuid=BDBD9D1A42B9011A5466EFBFAA7858C3)
+      AnimationBindings(5)=(WidgetName="ORANGEBIG",AnimationGuid=D9E57FED4E81A34908715F915E9150BE)
+      AnimationBindings(6)=(WidgetName="WEATHER_TEXT",AnimationGuid=29D874254DE8599B9223F993D5E828F4)
+      AnimationBindings(7)=(WidgetName="WEATHER_SUB_TEXT",AnimationGuid=3A113FEC4615A6D38EE67E93DBC363BF)
+      DisplayLabel="FOR_WEATHER_ANIM"
+      Signature=9F05D94B4A835B6C5CC973844A8A4290
+   End Object
+   Begin Object Name="EventGraph"
+      Begin Object Name="K2Node_Event_3"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct")
+         bOverrideFunction=True
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=D94354044513A4BB2CE3A580C5FF91D9
+         CustomProperties Pin (PinId=D9DDDDDD45D29C57E54A16B81ED8A6D3,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D300154B4DDF744EC6364FA3E85D7C9A,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E218877D4E49BEAFAA91C29EA21AB7B3,PinName="IsDesignTime",PinToolTip="Is Design Time\nBoolean",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_2"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Tick")
+         bOverrideFunction=True
+         NodePosY=400
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=D8E93F2048B9814D3FF16E9801043505
+         CustomProperties Pin (PinId=564810BE4AEE4BA93CB191AE6C86CD43,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Tick"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=BF1126934DB962A18E5CEB9E6F0C4D4F,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=6F9CA9F5423A27D8F4773FB0E7F4085D,PinName="MyGeometry",PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject=ScriptStruct'"/Script/SlateCore.Geometry"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A60D0136403F5FE75A418BB60AE3E4F5,PinName="InDeltaTime",PinToolTip="In Delta Time\nFloat\n\nReal time passed since last tick",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_0"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct")
+         bOverrideFunction=True
+         NodePosX=-416
+         NodePosY=-368
+         NodeGuid=FC3C7DDE43908AD8C9199D8D11DA044C
+         CustomProperties Pin (PinId=9DE8E9684F27F3673976D2934C584DC0,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A7B160C1408BB17346C111A0D240B9CE,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0"
+         FunctionReference=(MemberName="PlayAnimationForward",bSelfContext=True)
+         NodePosX=-64
+         NodePosY=-352
+         NodeGuid=0AF1A2B44EA09AF521DDAD9B4A0155B6
+         CustomProperties Pin (PinId=D4CB47A94089F8CBC1E12CB5D8656A3F,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=03E7811C4A0E4555A3A4BC8CD25109AC,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=E11EA3F548A1A05B9FDEBBBEB14F2E5C,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/UMG.UserWidget"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=FD721CBB45658FCA4E5C459B73DE36F6,PinName="InAnimation",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/UMG.WidgetAnimation"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=8A654E814E28A1FC3E01F98D9BD833D8,PinName="PlaybackSpeed",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="1.000000",AutogeneratedDefaultValue="1.000000",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D7FEB4D047F2CC8A891C799FDFA59E99,PinName="bRestoreState",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=917C0FB141CCD355A7FCD4B9CF0FF0E8,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/UMG.UMGSequencePlayer"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_VariableGet_0"
+         VariableReference=(MemberName="FOR_WEATHER_ANIM",bSelfContext=True)
+         NodePosX=-416
+         NodePosY=-224
+         NodeGuid=B3C2BCE84C96B84085AF17BF27022AEF
+         CustomProperties Pin (PinId=C1E6082B4843B286C8FA35B4F4C907E4,PinName="FOR_WEATHER_ANIM",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Class'"/Script/UMG.WidgetAnimation"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=0BFAE0DC458D471F70317D80F6E5103F,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/Blueprints/UHD/FOR_WEATHER.FOR_WEATHER_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=True,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_Event'"K2Node_Event_3"'
+      Nodes(1)=K2Node_Event'"K2Node_Event_2"'
+      Nodes(2)=K2Node_Event'"K2Node_Event_0"'
+      Nodes(3)=K2Node_CallFunction'"K2Node_CallFunction_0"'
+      Nodes(4)=K2Node_VariableGet'"K2Node_VariableGet_0"'
+      bAllowDeletion=False
+      GraphGuid=E92ABADB456A339D6C255FAACBDD9C79
+   End Object
+   Begin Object Name="Construct"
+      Begin Object Name="K2Node_FunctionEntry_0"
+         CustomGeneratedFunctionName="Construct"
+         FunctionReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct")
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=73CA982B47402741BDD3F28AD5CB4A5C
+         CustomProperties Pin (PinId=52C6B4EE4C231973704986A94DAF5C0A,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_0 9E9B8D8444D5D405BA4CC3BFECE9F10D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_CallFunction_0"
+         FunctionReference=(MemberName="ExecuteUbergraph_FOR_WEATHER",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=6029C3D64B9BE74F00C835A7CFDE659F
+         CustomProperties Pin (PinId=9E9B8D8444D5D405BA4CC3BFECE9F10D,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_0 52C6B4EE4C231973704986A94DAF5C0A,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A20F0AA6422B2CDA83E08F808CDB6CA5,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=3826F4C84216269642C8C29F1ED678AF,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/Blueprints/UHD/FOR_WEATHER.SKEL_FOR_WEATHER_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A113F7B34BD2B2F71135F58DCA3E643C,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      Nodes(1)=K2Node_CallFunction'"K2Node_CallFunction_0"'
+      GraphGuid=8C545B3742811E95609B17ACEE4420F2
+   End Object
+   Animations(0)=WidgetAnimation'"FOR_WEATHER_ANIM"'
+   InclusiveWidgets=11
+   EstimatedTemplateSize=8752
+   TickPrediction=OnDemand
+   TickPredictionReason="Anim"
+   WidgetTree="WidgetTree"
+   ParentClass=Class'"/Script/UMG.UserWidget"'
+   BlueprintSystemVersion=2
+   UbergraphPages(0)=EdGraph'"EventGraph"'
+   CategorySorting(0)="Event Graph"
+   CategorySorting(1)="Animations"
+   CategorySorting(2)="FOR WEATHER"
+   LastEditedDocuments(0)=(EditedObjectPath=/Game/Blueprints/UHD/FOR_WEATHER.FOR_WEATHER:EventGraph,SavedViewOffset=(X=-751.817078,Y=-505.929474),SavedZoomAmount=1.000000)
+   GeneratedClass=WidgetBlueprintGeneratedClass'"FOR_WEATHER_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=453CC94F4279B04D6397548F911865F1
+End Object
